@@ -2,7 +2,7 @@ class Owner
   # code goes here
   
   
-  def all
+  def self.all
     @@all
   end
 end
