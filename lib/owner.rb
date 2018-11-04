@@ -8,6 +8,6 @@ class Owner
   end
   
   def self.reset_all
-    @@all.size = 0
+    @@all.length = 0
   end
 end
