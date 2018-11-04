@@ -14,4 +14,8 @@ class Owner
   def self.count
     @@all.size
   end
+  
+  def initialize(species)
+    @species = species
+    @@all << self
 end
