@@ -12,7 +12,7 @@ class Owner
   end
   
   def self.reset_all
-    @@all.size = 0
+    self.all.size = 0
   end
   
 end
