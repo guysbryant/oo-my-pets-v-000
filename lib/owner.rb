@@ -1,4 +1,3 @@
-require 'pry'
 class Owner
   # code goes here
   attr_reader :species
@@ -53,7 +52,6 @@ class Owner
   
   def sell_pets
     @pets.each do |species, animals|
-      binding.pry
       animals.each do |animal|
         animal.mood = "nervous"
       end
